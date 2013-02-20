@@ -8,16 +8,16 @@
 
 ;; The packages to install and compile
 (setq packages '(clojure-mode
-     haskell-mode
-     go-mode
-     coffee-mode
-     lua-mode
-     php-mode
-     scala-mode
-     markdown-mode
-     magit
-     magithub
-     twittering-mode))
+                 haskell-mode
+                 go-mode
+                 coffee-mode
+                 lua-mode
+                 php-mode
+                 scala-mode
+                 markdown-mode
+                 magit
+                 magithub
+                 twittering-mode))
 
 ;; TODO: add the following
 ;; js2 mode
