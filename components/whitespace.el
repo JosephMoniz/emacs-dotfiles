@@ -20,4 +20,6 @@
 
  '(whitespace-hspace ((((class color) (background dark)) (:background "#181a26" :foreground "gray20")) (((class color) (background light)) (:background "black" :foreground "gray20")) (t (:inverse-video t))))
 
+ '(whitespace-indentation ((((class color) (background dark)) (:background "#181a26" :foreground "gray20")) (((class color) (background light)) (:background "black" :foreground "gray20")) (t (:inverse-video t))))
+
  '(whitespace-tab ((((class color) (background dark)) (:background "#181a26" :foreground "gray20")) (((class color) (background light)) (:background "black" :foreground "gray20")) (t (:inverse-video t)))))
