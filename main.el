@@ -10,6 +10,7 @@
 (setq packages '(clojure-mode
                  haskell-mode
                  go-mode
+                 dart-mode
                  coffee-mode
                  lua-mode
                  php-mode
