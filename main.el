@@ -11,6 +11,7 @@
                  haskell-mode
                  go-mode
                  dart-mode
+                 rust-mode
                  coffee-mode
                  lua-mode
                  php-mode
