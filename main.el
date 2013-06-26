@@ -15,6 +15,8 @@
                  lua-mode
                  php-mode
                  scala-mode
+                 sws-mode
+                 jade-mode
                  markdown-mode
                  rainbow-delimiters
                  magit
@@ -23,7 +25,6 @@
 
 ;; TODO: add the following
 ;; js2 mode
-;; org mode
 
 ;; Predicate function for testing if any packages aren't installed
 (defun packages-are-installed-p ()
