@@ -6,7 +6,7 @@
  '(custom-enabled-themes (quote (deeper-blue)))
  '(rainbow-delimiters-highlight-braces-p t)
  '(rainbow-delimiters-highlight-brackets-p nil)
- '(rainbow-delimiters-highlight-parens-p nil)
+ '(rainbow-delimiters-highlight-parens-p t)
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

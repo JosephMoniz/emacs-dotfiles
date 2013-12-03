@@ -15,7 +15,11 @@
                  lua-mode
                  php-mode
                  scala-mode
+                 js2-mode
+                 sws-mode
+                 jade-mode
                  markdown-mode
+                 yaml-mode
                  rainbow-delimiters
                  magit
                  magithub
