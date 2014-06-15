@@ -27,9 +27,6 @@
                  magithub
                  sublime-themes))
 
-;; TODO: add the following
-;; js2 mode
-
 ;; Predicate function for testing if any packages aren't installed
 (defun packages-are-installed-p ()
   (loop for p in packages
@@ -56,12 +53,6 @@
 ;; scala-mode is started for a buffer. You may have to customize this step
 ;; if you're not using the standard scala mode.
 (add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
-
-;; load all the individual component configs
-(setq component-dir "~/.emacs.d/dotfiles/components")
-(setq components (cddr (directory-files component-dir)))
-(dolist (component components)
-  (load-file (concat component-dir "/" component)))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -90,8 +81,10 @@
  '(rainbow-delimiters-depth-8-face ((t (:foreground "dark red"))))
  '(rainbow-delimiters-depth-9-face ((t (:foreground "maroon1"))))
  '(rainbow-delimiters-unmatched-face ((t (:foreground "orchid1"))))
- '(whitespace-hspace ((((class color) (background dark)) (:background "#181a26" :foreground "gray20")) (((class color) (background light)) (:background "black" :foreground "gray20")) (t (:inverse-video t))))
- '(whitespace-indentation ((((class color) (background dark)) (:background "#181a26" :foreground "gray20")) (((class color) (background light)) (:background "black" :foreground "gray20")) (t (:inverse-video t))))
- '(whitespace-newline ((((class color) (background dark)) (:background "#181a26" :foreground "gray20")) (((class color) (background light)) (:background "black" :foreground "gray20")) (t (:inverse-video t))))
- '(whitespace-space ((((class color) (background dark)) (:background "#181a26" :foreground "gray20")) (((class color) (background light)) (:background "black" :foreground "gray20")) (t (:inverse-video t))))
- '(whitespace-tab ((((class color) (background dark)) (:background "#181a26" :foreground "gray20")) (((class color) (background light)) (:background "black" :foreground "gray20")) (t (:inverse-video t)))))
+)
+
+;; load all the individual component configs
+(setq component-dir "~/.emacs.d/dotfiles/components")
+(setq components (cddr (directory-files component-dir)))
+(dolist (component components)
+  (load-file (concat component-dir "/" component)))

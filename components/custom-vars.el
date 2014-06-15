@@ -3,7 +3,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (deeper-blue)))
  '(rainbow-delimiters-highlight-braces-p t)
  '(rainbow-delimiters-highlight-brackets-p nil)
  '(rainbow-delimiters-highlight-parens-p t)
